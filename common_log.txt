@@ -1,0 +1,288 @@
+[2018-11-27 09:58:54] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5
+[2018-11-27 09:58:59] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5, 5
+[2018-11-27 09:59:03] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 10, 5
+[2018-11-27 10:00:23] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5
+[2018-11-27 10:00:25] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5, 5
+[2018-11-27 10:00:31] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 10, 5
+[2018-11-27 10:00:34] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 15, 5
+[2018-11-27 10:01:07] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5
+[2018-11-27 10:01:08] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5, 5
+[2018-11-27 10:01:09] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 10, 5
+[2018-11-27 10:01:21] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5
+[2018-11-27 10:01:23] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5, 5
+[2018-11-27 10:01:26] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 10, 5
+[2018-11-27 10:01:28] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 15, 5
+[2018-11-27 10:01:29] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 20, 5
+[2018-11-27 10:01:30] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 25, 5
+[2018-11-27 10:01:31] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 30, 5
+[2018-11-27 10:01:33] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 35, 5
+[2018-11-27 10:01:33] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 40, 5
+[2018-11-27 10:02:16] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5
+[2018-11-27 10:02:19] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5, 5
+[2018-11-27 10:02:20] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 10, 5
+[2018-11-27 10:02:21] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 15, 5
+[2018-11-27 10:02:21] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 20, 5
+[2018-11-27 10:02:22] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 25, 5
+[2018-11-27 10:02:23] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 30, 5
+[2018-11-27 10:02:33] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 35, 5
+[2018-11-27 10:02:34] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 40, 5
+[2018-11-27 10:02:34] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 45, 5
+[2018-11-27 10:02:35] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 50, 5
+[2018-11-27 10:02:44] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5
+[2018-11-27 10:03:02] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5
+[2018-11-27 10:03:43] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` ASC, `comment`.`crd` ASC
+ LIMIT 5
+[2018-11-27 10:03:54] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` ASC, `comment`.`crd` DESC
+ LIMIT 5
+[2018-11-27 10:04:10] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` ASC, `comment`.`crd` ASC
+ LIMIT 5
+[2018-11-27 10:05:03] SELECT `comment`.`comment`, `comment`.`crd` as `date`, NOW() as date_of_comment, `user`.`fullname`, `user`.`country`, `user`.`profileImage` as `profile_image`, `user`.`userId`
+FROM `comments` `comment`
+LEFT JOIN `users` `user` ON `comment`.`user_id` = `user`.`userId`
+WHERE `post_id` = '57'
+AND `comment`.`status` = 1
+AND `user`.`status` = 1
+ORDER BY `comment`.`commentId` DESC, `comment`.`crd` DESC
+ LIMIT 5

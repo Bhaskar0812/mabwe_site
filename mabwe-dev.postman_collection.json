@@ -1,0 +1,985 @@
+{
+	"info": {
+		"name": "mabwe",
+		"_postman_id": "a798b029-737f-0ff7-e7f4-50bcf19f97dc",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Group Members",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9cf77117cc6ec667f01d"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "group_id",
+							"value": "128",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/getGroupMembers",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"getGroupMembers"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Comment On Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "dcf270b47fa70171f8b2"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "post_id",
+							"value": "557",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "comment",
+							"value": "hello this is another testing",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/comment",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"comment"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Group Details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "2467cbf4cb0a6e1189ae"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "group_id",
+							"value": "19",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "offset",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/getGroupMembers",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"getGroupMembers"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Group List",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9cf77117cc6ec667f01d"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/get_group",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"get_group"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create Group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "ff9ca061a69bcf3b1f71"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "group",
+							"value": "Collage",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "category_id",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "groupImage",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/group",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"group"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Post List",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "09e0c71e948f04c52a0d"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "filter",
+							"value": "1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "start",
+							"value": "0",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "search",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "filter",
+							"value": "3",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "5",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/post",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"post"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "likes On Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9c3b730262717ba37bd3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "post_id",
+							"value": "532",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/likes",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"likes"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User Registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "bhaskar.mindiii@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "fullName",
+							"value": "Bhaskar Dutt Sharma",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/userRegistration",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"userRegistration"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "bhaskar.mindiii@gmail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/userLogin",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"userLogin"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Change Password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "1ac8ecce49d4a7e3c5e8"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "password",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "npassword",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "cpassword",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/changePassword",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"changePassword"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9cf77117cc6ec667f01d"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/logout",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"logout"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "User Detail",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9c3b730262717ba37bd3"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/user",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"user"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Likes On Group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9c3b730262717ba37bd3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "group_id",
+							"value": "132",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/Grouplikes",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"Grouplikes"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Notification List",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9c3b730262717ba37bd3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_id",
+							"value": "25",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/getNotification",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"getNotification"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update User Profile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9c3b730262717ba37bd3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "fullName",
+							"value": "Rakesh Patel",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "India",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "profession",
+							"value": "Job",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/updateUserProfile",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"updateUserProfile"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update Group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9c3b730262717ba37bd3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "group_id",
+							"value": "132",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/updateGroups",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"updateGroups"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Add Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9c3b730262717ba37bd3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Test",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "discription",
+							"value": "Latest Test",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "21.03",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "long",
+							"value": "2.03",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "india",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "indore",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "Madhya Pradesh",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Indore vijaynagar",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "images[]",
+							"description": "",
+							"type": "file",
+							"src": "news-box-3.jpg"
+						},
+						{
+							"key": "video",
+							"description": "",
+							"type": "file",
+							"src": "SampleVideo_176x144_1mb.3gp"
+						},
+						{
+							"key": "video_thumb",
+							"description": "",
+							"type": "file",
+							"src": "news-box-3.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/addPost",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"addPost"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Categories List",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9c3b730262717ba37bd3"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/categories",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"categories"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Post Detail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9c3b730262717ba37bd3"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "post_id",
+							"value": "532",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/postDetail",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"postDetail"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Content",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "9cf77117cc6ec667f01d"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "type",
+							"value": "2",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/getContent",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"getContent"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Comment On Group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "dcf270b47fa70171f8b2"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "group_id",
+							"value": "132",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "comment",
+							"value": "Wow !",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/Groupcomment",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"Groupcomment"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authToken",
+						"value": "dcf270b47fa70171f8b2"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "groupId",
+							"value": "134",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "dev.mindiii.com/mabwe/service/user/deleteGroup",
+					"host": [
+						"dev",
+						"mindiii",
+						"com"
+					],
+					"path": [
+						"mabwe",
+						"service",
+						"user",
+						"deleteGroup"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
